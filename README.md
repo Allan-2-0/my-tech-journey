@@ -1,1 +1,121 @@
-# my-tech-journey
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Tech Journey</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    .body {
+      margin: 0;
+      padding: 20px;
+      background: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .container img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4CAF50;
+    }
+
+    .description {
+      flex: 1;
+    }
+
+    .description h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .description p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .form-area {
+      max-width: 900px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .textarea {
+      width: 100%;
+      height: 120px;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      resize: vertical;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+
+    textarea:focus {
+      border-color: #4CAF50;
+      outline: none;
+    }
+
+    .button {
+      align-self: flex-start;
+      background: black;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 1s, background-color 0.2s;
+    }
+
+    .button:hover {
+      background-color: green;
+      transform: scale(1.05);
+    }
+
+    .area{
+      height: 300px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="pictures/thumbnail-1.webp" alt="My Image">
+    <div class="description">
+      <h2>My Tech Journey</h2>
+      <p>
+        I started my web development journey with curiosity and a passion to learn. From writing my first HTML tag to building full websites with JavaScript and CSS, I've grown through every bug and breakthrough. Each project taught me something new, and now I’m creating more polished, interactive, and responsive websites.
+      </p>
+    </div>
+  </div>
+
+  <div class="form-area">
+    <label for="journey">Share Your Tech Journey:</label>
+    <textarea class="area" id="journey" placeholder="Write about your journey here..."></textarea>
+    <button class="button">Submit</button>
+  </div>
+
+</body>
+</html>
+
+        
+        
